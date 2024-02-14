@@ -1,5 +1,5 @@
 projeto vai ser desenvolvido ao longo do tempo aqui
-abaixo o que deve ser digitado e aparecer para commitar no github
+abaixo o que deve ser digitado no GIT BASH (TERMINAL) OU MESMO NO TERMINAL DO VS CODE OU OUTROS DE PREFERENCIA...e a sequencia que vai aparecer no terminal  para inserir o commit no github:
 
 Renato@DESKTOP-RL03AUD MINGW64 /d/OneDrive/Área de Trabalho/ProjetoGIT (main)
 $ git add .
@@ -25,3 +25,13 @@ $ git commit -m "criação do projeto"
 
 Renato@DESKTOP-RL03AUD MINGW64 /d/OneDrive/Área de Trabalho/ProjetoGIT (main)
 $ git push origin main
+
+....após posso ver no github que foi inserido o novo commit e as alteraçoes feitas nesse codigo
+
+entao sempre será essa sequencia:
+1) git add .
+2)git status (para ver o arquivo que foi modificado)
+3) git commit -m "" (nome do commit)
+4) git push origin main
+
+obs: o "git remote" usa somente uma vez quando vai colar o link do github e posteriormente logar com email e senha,,,,apos isso feito usa somente o "push origin main".
