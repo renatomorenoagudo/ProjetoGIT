@@ -62,3 +62,8 @@ marge
  digitamos :  git merge novo-botao
 
  
+digita : git checkout -b "novo botao"
+com isso voce ira sair do local principal que esta desenvolvendo e criar um novo dentro...ou seja, tudo que voce alterar agora sera dentro dessa nova branch e nao mais na principal.
+
+agora vamos criar um arquivo com o nome botao.md e vamos escrever nele: aqui sera criado o botao do projeto
+obs: nao necessariamente precisamos criar um novo arquivo, qualquer alteração ja serve para criar um comit dentro da branch borao...mas um novo arquivo fica melhor para visualizarmos
