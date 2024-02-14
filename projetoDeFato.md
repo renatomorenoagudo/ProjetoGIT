@@ -35,3 +35,30 @@ entao sempre será essa sequencia:
 4) git push origin main
 
 obs: o "git remote" usa somente uma vez quando vai colar o link do github e posteriormente logar com email e senha,,,,apos isso feito usa somente o "push origin main".
+
+agora vou criar uma "BRANCH" como por exemplo para criar um novo botao.
+abre o terminal git bash
+digito: git checkout -b "novo botão"
+
+com isso voce ira sair do local principal que esta desenvolvendo e criar um novo dentro...ou seja, tudo que voce alterar agora sera dentro desse novo ramo e nao mais na principal.
+
+agora vamos criar um arquivo com o nome botao.md e vamos escrever nele: aqui será criado o botao do projeto
+obs: não necessariamente precisamos criar um novo arquivo, qualquer alteração ja serve para criar um comit dentro da branch botao...mas um novo arquivo fica melhor para visualizarmos
+
+agora segue o padrao...
+$ git add . 
+$ git commit -m"novo botao"
+$ git push origin novo-botao
+
+no push tem que lembrar que nao estamos mais no main(principal) por isso tem q substitui main pelo nome da branch criada (novo-botao)
+
+para voltar a modificar algo la na main tem que dar o comando CHECKOUT MAIN no terminal bash
+para que mude a pasta a ser modificada no github
+apos observe que a pasta entre parenteses voltou a ficar com o nome main e nao mais (novo-botao)
+pode ocorrer do terminal perguntar pra qual arquivo dentro do principal,,,assim de outro checkout com o nome do arquivo e depois novo checkout com main...q ai ele entrara no main
+******************************
+marge
+ agora vamos aprender a funçao do comando marge 
+ digitamos :  git merge novo-botao
+
+ 
