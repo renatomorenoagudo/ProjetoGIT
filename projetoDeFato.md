@@ -61,9 +61,20 @@ marge
  agora vamos aprender a funçao do comando marge 
  digitamos :  git merge novo-botao
 
- 
-digita : git checkout -b "novo botao"
-com isso voce ira sair do local principal que esta desenvolvendo e criar um novo dentro...ou seja, tudo que voce alterar agora sera dentro dessa nova branch e nao mais na principal.
+ele vai mesclar os arquivos
+se der conflito de mesclagem, para abortar a merge
+pode digitar :
+git merge --abort
+.......................
+para salvar algum arquivo de outra pessoa no github para minha pasta possibilitando assim que abra o arquivo no vscode, é só eu localizar o aquivo no github e clicar no botao verde (code) e copiar o arquivo de clone,, o endereço que é nada mais que o proprio nome do comit
 
-agora vamos criar um arquivo com o nome botao.md e vamos escrever nele: aqui sera criado o botao do projeto
-obs: nao necessariamente precisamos criar um novo arquivo, qualquer alteração ja serve para criar um comit dentro da branch borao...mas um novo arquivo fica melhor para visualizarmos
+depois no meu pc crio uma pasta onde vou baixar esses arquivos e entro no gitbash por ele e digito apenas
+git clone e colo o endereço do arquivo ctl+shift+insert(ou V)
+que será criado o arquivo.
+obs: nao crie essa pasta dentro de um arquivo que está sendo usado no vscode ou na sua IDE preferida, pois pode dar erro ao clonar
+
+para manter o arquivo atualizado, entre no gitbash pela pasta com o arquivo e no terminal digite apenas 
+
+git pull
+
+que ele fara a atualização do que foi editado posteriormente pelo criador do arq; clonado.
