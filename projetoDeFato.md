@@ -35,3 +35,13 @@ entao sempre será essa sequencia:
 4) git push origin main
 
 obs: o "git remote" usa somente uma vez quando vai colar o link do github e posteriormente logar com email e senha,,,,apos isso feito usa somente o "push origin main".
+
+agora vou criar uma "BRANCH" como por exemplo para criar um novo botao.
+abre o terminal git bash
+digita : git checkout -b "novo botao"
+com isso voce ira sair do local principal que esta desenvolvendo e criar um novo dentro...ou seja, tudo que voce alterar agora sera dentro dessa nova branch e nao mais na principal.
+
+agora vamos criar um arquivo com o nome botao.md e vamos escrever nele: aqui sera criado o botao do projeto
+obs: nao necessariamente precisamos criar um novo arquivo, qualquer alteração ja serve para criar um comit dentro da branch borao...mas um novo arquivo fica melhor para visualizarmos
+
+
